@@ -1,0 +1,153 @@
+[debug] [2024-04-04T04:48:12.056Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T04:48:12.058Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-04T04:48:12.058Z] CLI Version:   13.6.1
+[debug] [2024-04-04T04:48:12.059Z] Platform:      win32
+[debug] [2024-04-04T04:48:12.059Z] Node Version:  v20.12.0
+[debug] [2024-04-04T04:48:12.059Z] Time:          Thu Apr 04 2024 10:18:12 GMT+0530 (India Standard Time)
+[debug] [2024-04-04T04:48:12.059Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T04:48:12.177Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-04-04T04:48:12.177Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-04-04T04:48:12.178Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-04-04T04:48:12.178Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:48:12.178Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:48:12.183Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T04:48:12.183Z] > authorizing via signed-in user (kritarthshukla92@gmail.com)
+[debug] [2024-04-04T04:48:12.309Z] java version "19.0.2" 2023-01-17
+Java(TM) SE Runtime Environment (build 19.0.2+7-44)
+
+[debug] [2024-04-04T04:48:12.310Z] Java HotSpot(TM) 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+[debug] [2024-04-04T04:48:12.332Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting, storage"}}
+[debug] [2024-04-04T04:48:12.344Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.344Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.344Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.344Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.344Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.344Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:48:12.345Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-04T04:48:12.349Z] [hub] writing locator at C:\Users\krita\AppData\Local\Temp\hub-friendlychat-adaa8.json
+[debug] [2024-04-04T04:48:12.360Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 [none]
+[debug] [2024-04-04T04:48:13.069Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 200
+[debug] [2024-04-04T04:48:13.070Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 {"projectId":"friendlychat-adaa8","projectNumber":"350805575442","displayName":"FriendlyChat","name":"projects/friendlychat-adaa8","resources":{"hostingSite":"friendlychat-adaa8"},"state":"ACTIVE","etag":"1_bc0cbb1e-36aa-4d57-8a8c-65bd36100641"}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-04-04T04:52:54.517Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T04:52:54.520Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-04T04:52:54.520Z] CLI Version:   13.6.1
+[debug] [2024-04-04T04:52:54.520Z] Platform:      win32
+[debug] [2024-04-04T04:52:54.521Z] Node Version:  v20.12.0
+[debug] [2024-04-04T04:52:54.521Z] Time:          Thu Apr 04 2024 10:22:54 GMT+0530 (India Standard Time)
+[debug] [2024-04-04T04:52:54.521Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T04:52:54.641Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-04-04T04:52:54.642Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-04-04T04:52:54.642Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-04-04T04:52:54.642Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:52:54.642Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:52:54.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T04:52:54.648Z] > authorizing via signed-in user (kritarthshukla92@gmail.com)
+[debug] [2024-04-04T04:52:54.751Z] java version "19.0.2" 2023-01-17
+Java(TM) SE Runtime Environment (build 19.0.2+7-44)
+
+[debug] [2024-04-04T04:52:54.751Z] Java HotSpot(TM) 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+[debug] [2024-04-04T04:52:54.767Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting, storage"}}
+[debug] [2024-04-04T04:52:54.779Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:52:54.779Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-04T04:52:54.784Z] [hub] writing locator at C:\Users\krita\AppData\Local\Temp\hub-friendlychat-adaa8.json
+[debug] [2024-04-04T04:52:54.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 [none]
+[debug] [2024-04-04T04:52:55.623Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 200
+[debug] [2024-04-04T04:52:55.624Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 {"projectId":"friendlychat-adaa8","projectNumber":"350805575442","displayName":"FriendlyChat","name":"projects/friendlychat-adaa8","resources":{"hostingSite":"friendlychat-adaa8"},"state":"ACTIVE","etag":"1_bc0cbb1e-36aa-4d57-8a8c-65bd36100641"}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-04-04T04:54:16.782Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T04:54:16.784Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-04T04:54:16.785Z] CLI Version:   13.6.1
+[debug] [2024-04-04T04:54:16.785Z] Platform:      win32
+[debug] [2024-04-04T04:54:16.785Z] Node Version:  v20.12.0
+[debug] [2024-04-04T04:54:16.785Z] Time:          Thu Apr 04 2024 10:24:16 GMT+0530 (India Standard Time)
+[debug] [2024-04-04T04:54:16.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T04:54:16.906Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-04-04T04:54:16.906Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-04-04T04:54:16.907Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-04-04T04:54:16.907Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:54:16.907Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T04:54:16.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T04:54:16.915Z] > authorizing via signed-in user (kritarthshukla92@gmail.com)
+[debug] [2024-04-04T04:54:17.018Z] java version "19.0.2" 2023-01-17
+
+[debug] [2024-04-04T04:54:17.018Z] Java(TM) SE Runtime Environment (build 19.0.2+7-44)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+[debug] [2024-04-04T04:54:17.044Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting, storage"}}
+[debug] [2024-04-04T04:54:17.057Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T04:54:17.057Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-04T04:54:17.062Z] [hub] writing locator at C:\Users\krita\AppData\Local\Temp\hub-friendlychat-adaa8.json
+[debug] [2024-04-04T04:54:17.078Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 [none]
+[debug] [2024-04-04T04:54:17.644Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 200
+[debug] [2024-04-04T04:54:17.644Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 {"projectId":"friendlychat-adaa8","projectNumber":"350805575442","displayName":"FriendlyChat","name":"projects/friendlychat-adaa8","resources":{"hostingSite":"friendlychat-adaa8"},"state":"ACTIVE","etag":"1_bc0cbb1e-36aa-4d57-8a8c-65bd36100641"}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-04-04T06:24:33.701Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T06:24:33.709Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\krita\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-04T06:24:33.710Z] CLI Version:   13.6.1
+[debug] [2024-04-04T06:24:33.710Z] Platform:      win32
+[debug] [2024-04-04T06:24:33.711Z] Node Version:  v20.12.0
+[debug] [2024-04-04T06:24:33.712Z] Time:          Thu Apr 04 2024 11:54:33 GMT+0530 (India Standard Time)
+[debug] [2024-04-04T06:24:33.712Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T06:24:33.924Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-04-04T06:24:33.924Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-04-04T06:24:33.924Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-04-04T06:24:33.924Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T06:24:33.925Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T06:24:33.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T06:24:33.931Z] > authorizing via signed-in user (kritarthshukla92@gmail.com)
+[debug] [2024-04-04T06:24:34.193Z] java version "19.0.2" 2023-01-17
+
+[debug] [2024-04-04T06:24:34.194Z] Java(TM) SE Runtime Environment (build 19.0.2+7-44)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+[debug] [2024-04-04T06:24:34.244Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting, storage"}}
+[debug] [2024-04-04T06:24:34.283Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.284Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.284Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.284Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.284Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.284Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T06:24:34.285Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-04T06:24:34.299Z] [hub] writing locator at C:\Users\krita\AppData\Local\Temp\hub-friendlychat-adaa8.json
+[debug] [2024-04-04T06:24:34.320Z] > refreshing access token with scopes: []
+[debug] [2024-04-04T06:24:34.322Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-04T06:24:34.322Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-04T06:24:35.243Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-04T06:24:35.244Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-04T06:24:35.263Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 [none]
+[debug] [2024-04-04T06:24:36.154Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 200
+[debug] [2024-04-04T06:24:36.154Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-adaa8 {"projectId":"friendlychat-adaa8","projectNumber":"350805575442","displayName":"FriendlyChat","name":"projects/friendlychat-adaa8","resources":{"hostingSite":"friendlychat-adaa8"},"state":"ACTIVE","etag":"1_bc0cbb1e-36aa-4d57-8a8c-65bd36100641"}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
